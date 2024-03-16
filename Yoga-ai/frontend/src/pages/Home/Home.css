@@ -1,0 +1,95 @@
+
+.home-header {
+    /* background: linear-gradient(100deg,#FF8C00, #FFA500); */
+    background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home-container {
+    /* background: black; */
+    background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    
+    
+}
+.header-btn:hover {
+    border-color: white;
+}
+
+.home-heading {
+    padding: 0px;
+    margin: 0px;
+    font-size: 44px;
+    margin-left: 30px;
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.home-main {
+    margin: auto;
+    margin-top: -50px;
+    width: 100vw;
+    height: 100vh;    
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0, 0, 0, 0.8)), url('../../utils/images/yoga_pose.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:  750px;
+    border-radius: 70%;
+}
+
+.description {
+    font-size: 66px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.btn-section {
+    position: absolute;
+    left: 38vw;
+    top: 60vh;
+}
+
+.btn{
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 10px 20px 10px 20px;
+    background-color: rgba(255, 255, 255, 0);
+    color: whitesmoke;
+    font-size: 32px;
+    font-weight: bolder;
+    border-color: none;
+    border-color: rgb(69,132,255);
+    border-radius: 8px;
+    border-width: 4px;
+    cursor: pointer;
+    font-family: 'Kaushan Script', cursive;
+}
+.btn:hover {
+    background: rgba(255,165,0, 0.2);
+    color: white;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+#about-btn {
+    padding: 5px 10px;
+}
+#about-btn:hover {
+    border-color: white;
+    background-color: white;
+    color: black;
+}
+#about-btn:focus {
+    box-shadow: none;
+    background: white;
+    border-color: white;
+    color: black;
+}
